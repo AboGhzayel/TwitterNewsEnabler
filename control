@@ -1,0 +1,9 @@
+Package: com.Mohamad.com
+Name: TwitterNewsEnabler
+Depends: mobilesubstrate
+Version: 1
+Architecture: iphoneos-arm
+Description: An awesome MobileSubstrate tweak!
+Maintainer: Mohammad Ghzayel
+Author: Mohammad Ghzayel
+Section: Tweaks
