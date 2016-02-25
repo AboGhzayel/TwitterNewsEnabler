@@ -15,8 +15,6 @@ return TRUE;
 return %orig;
 }
 }
-%end
-%hook TFNTwitterAccount
 -(BOOL)isNewsHeadlineTimeStampEnabled{
 if(GetPrefBool(@"k1")) {
 return TRUE;
@@ -24,8 +22,6 @@ return TRUE;
 return %orig;
 }
 }
-%end
-%hook TFNTwitterAccount
 -(BOOL)isNewsAuthorAccountSectionEnabled{
 if(GetPrefBool(@"k1")) {
 return TRUE;
@@ -33,10 +29,7 @@ return TRUE;
 return %orig;
 }
 }
-%end
 
-
-%hook TFNTwitterAccount
 -(BOOL)isNewsTabRelatedTweetsEnabled{
 if(GetPrefBool(@"k1")) {
 return TRUE;
@@ -44,8 +37,7 @@ return TRUE;
 return %orig;
 }
 }
-%end
-%hook TFNTwitterAccount
+
 -(BOOL)isNewsHeadlineCategoryEnabled{
 if(GetPrefBool(@"k1")) {
 return TRUE;
@@ -53,9 +45,6 @@ return TRUE;
 return %orig;
 }
 }
-%end
-    
-%hook TFNTwitterAccount
 -(BOOL)isNewsSeamfulV2Enabled{
 if(GetPrefBool(@"k1")) {
 return TRUE;
@@ -63,9 +52,7 @@ return TRUE;
 return %orig;
 }
 }
-%end
 
-%hook TFNTwitterAccount
 -(BOOL)isNewsSeamfulEnabled{
 if(GetPrefBool(@"k1")) {
 return TRUE;
@@ -73,8 +60,7 @@ return TRUE;
 return %orig;
 }
 }
-%end
-%hook TFNTwitterAccount
+
 -(BOOL)isNewsFeaturedStoryEnabled{
 if(GetPrefBool(@"k1")) {
 return TRUE;
@@ -82,9 +68,7 @@ return TRUE;
 return %orig;
 }
 }
-%end
 
-%hook TFNTwitterAccount
 -(BOOL)isNewsNotificationSwitchEnabled{
 if(GetPrefBool(@"k1")) {
 return TRUE;
@@ -92,9 +76,6 @@ return TRUE;
 return %orig;
 }
 }
-%end
-
-%hook TFNTwitterAccount
 -(BOOL)isNewsTabEnabled{
 if(GetPrefBool(@"k1")) {
 return TRUE;
@@ -102,10 +83,7 @@ return TRUE;
 return %orig;
 }
 }
-%end
 
-
-%hook TFNTwitterAccount
 -(BOOL)isNewsCategoryNavigationEnabled{
 if(GetPrefBool(@"k1")) {
 return TRUE;
@@ -113,10 +91,6 @@ return TRUE;
 return %orig;
 }
 }
-%end
-
-
-%hook TFNTwitterAccount
 -(BOOL)isNewsTabEnabledNoDDGImpression{
 if(GetPrefBool(@"k1")) {
 return TRUE;
@@ -124,8 +98,7 @@ return TRUE;
 return %orig;
 }
 }
-%end
-%hook TFNTwitterAccount
+
 -(BOOL)isInNewsExperiment{
 if(GetPrefBool(@"k1")) {
 return TRUE;
@@ -133,9 +106,6 @@ return TRUE;
 return %orig;
 }
 }
-%end
-
-%hook TFNTwitterAccount
 -(BOOL)isInTweetTranslationExperiment{
 if(GetPrefBool(@"k1")) {
 return TRUE;
@@ -143,11 +113,7 @@ return TRUE;
 return %orig;
 }
 }
-%end
 
-
-
-%hook TFNTwitterAccount
 -(BOOL)isVITNotificationsSettingsEnabled{
 if(GetPrefBool(@"k1")) {
 return TRUE;
@@ -155,8 +121,7 @@ return TRUE;
 return %orig;
 }
 }
-%end
-%hook TFNTwitterAccount
+
 -(BOOL)isHomeTimelineNewTweetsBannerEnabled{
 if(GetPrefBool(@"k1")) {
 return TRUE;
@@ -188,10 +153,7 @@ return TRUE;
 return %orig;
 }
 }
-%end
 
-
-%hook T1NewsHeadlineViewController
 -(void)setIsRefreshingNews:(BOOL)arg1{
 if(GetPrefBool(@"k1")) {
 arg1 = TRUE;    
