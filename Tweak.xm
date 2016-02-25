@@ -143,9 +143,6 @@ return TRUE;
 return %orig;
 }
 }
-%end
-
-%hook T1NewsHeadlineViewController
 -(BOOL)isRefreshing{
 if(GetPrefBool(@"k1")) {
 return TRUE;
@@ -213,9 +210,6 @@ return TRUE;
 return %orig;
 }
 }
-%end
-
-%hook TFNTwitterAccount
 -(BOOL)isMomentsEnabled{
 if(GetPrefBool(@"k2")) {
 return TRUE;
@@ -373,10 +367,3 @@ return %orig;
 }
 }
 %end
-
-
-
-
-
-
-
