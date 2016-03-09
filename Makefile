@@ -1,5 +1,6 @@
 ARCHS = armv7 arm64
 include theos/makefiles/common.mk
+export ADDITIONAL_LDFLAGS = -Wl,-segalign,4000
 
 TWEAK_NAME = TwitterNewsEnabler
 TwitterNewsEnabler_FILES = Tweak.xm
