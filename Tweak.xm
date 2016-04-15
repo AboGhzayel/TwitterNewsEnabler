@@ -295,15 +295,6 @@ return %orig;
 %end
 
 
-%hook TFNTwitterStatus
--(BOOL)isMoment{
-if(GetPrefBool(@"k2")) {
-return TRUE;
-}else{
-return %orig;
-}
-}
-%end
 
 %hook T1MomentPageVideoStreamElementViewController
 -(void)resumeMedia{return;
